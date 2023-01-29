@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: 0;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    max-width: 1920px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $dark-grayish-blue;
+    font-weight: 600;
+    transition: all 200ms;
+
+    &:hover {
+        color: $strong-cyan;
+    }
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: $dark-grayish-blue;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+P {
+    color: $grayish-blue;
+    line-height: 3rem;
+}
+
+i {
+    font-size: 3.5rem;
+    margin-left: 2.5rem;
+    color: $dark-grayish-blue;
+    transition: all 200ms;
+}
