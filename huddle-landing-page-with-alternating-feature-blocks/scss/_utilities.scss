@@ -1,0 +1,64 @@
+.container {
+    padding: 0 10rem;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.btn {
+    padding: 1.5rem 5rem;
+    border-radius: 15rem;
+    box-shadow: 1px 2px 5px 1px rgba($color: $very-dark-cyan, $alpha: .1);
+    transition: all 200ms;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+        opacity: .8;
+    }
+}
+
+.pink-btn {
+    background-color: $pink;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.footer-icon {
+    img {
+        width: 1.5rem !important;
+        margin: 0 !important;
+        margin-right: 2.5rem !important;
+    }
+    &:first-child {
+        align-self: flex-start;
+        margin-top: .5rem;
+    }
+}
+
+.facebook,
+.instagram,
+.twitter {
+    transition: all 200ms;
+}
+
+.facebook:hover {
+    border-color: #3b5998 !important;
+    i {
+        color: #3b5998 !important;
+    }
+}
+
+.instagram:hover {
+    border-color: #dd2a7b !important;
+   i {
+        color: #dd2a7b !important;
+   }
+}
+
+.twitter:hover {
+    border-color: #00acee !important;
+    i {
+        color: #00acee !important;
+    }
+}
